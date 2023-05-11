@@ -13,7 +13,7 @@ function handleClick() {
   }
 
 function Footer({ currentPage }) {
-    const footerStyle = currentPage === 'Contact' ? { marginTop: '70px' } : {};
+    const footerStyle = currentPage === 'Home' ? { marginTop: '350px' } : {};
     return (
         <>
             <footer className="footer" style={footerStyle}>
