@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.4e0e70e6.css",
-    "main.js": "/React-Portfolio/static/js/main.e26cd7c5.js",
+    "main.css": "/React-Portfolio/static/css/main.80bc946e.css",
+    "main.js": "/React-Portfolio/static/js/main.5403855c.js",
     "static/media/coffee.jpg": "/React-Portfolio/static/media/coffee.13886d550116638532e5.jpg",
     "static/media/paper2.jpg": "/React-Portfolio/static/media/paper2.28bb2e66b64fa3065e4f.jpg",
     "static/media/background.jpg": "/React-Portfolio/static/media/background.5ffc764d0d2e2d2d36c1.jpg",
     "static/media/face-black&white.jpg": "/React-Portfolio/static/media/face-black&white.c4d4cb917d69abe79b80.jpg",
     "static/media/man.jpg": "/React-Portfolio/static/media/man.451598308efe64b96f57.jpg",
     "static/media/jetty.jpg": "/React-Portfolio/static/media/jetty.e2af26b4b510fa7e6290.jpg",
+    "static/media/Kayden_RESUME_hyunsik kim-developer.pdf": "/React-Portfolio/static/media/Kayden_RESUME_hyunsik kim-developer.ef8baaec875cf76ec1d0.pdf",
+    "static/media/COVER+LETTER_hyunsik+kim(KAYDEN)-developer.pdf": "/React-Portfolio/static/media/COVER+LETTER_hyunsik+kim(KAYDEN)-developer.2339adf1caac3ceb5a07.pdf",
     "static/media/keyboard.jpg": "/React-Portfolio/static/media/keyboard.fe31fa1c675aedd7ab2f.jpg",
     "static/media/refactor.jpg": "/React-Portfolio/static/media/refactor.43042774a278303a2588.jpg",
     "static/media/phone.jpg": "/React-Portfolio/static/media/phone.a7878454110e7e838fea.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.4e0e70e6.css.map": "/React-Portfolio/static/css/main.4e0e70e6.css.map",
-    "main.e26cd7c5.js.map": "/React-Portfolio/static/js/main.e26cd7c5.js.map"
+    "main.80bc946e.css.map": "/React-Portfolio/static/css/main.80bc946e.css.map",
+    "main.5403855c.js.map": "/React-Portfolio/static/js/main.5403855c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e0e70e6.css",
-    "static/js/main.e26cd7c5.js"
+    "static/css/main.80bc946e.css",
+    "static/js/main.5403855c.js"
   ]
 }
