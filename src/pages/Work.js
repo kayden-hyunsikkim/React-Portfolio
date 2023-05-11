@@ -14,50 +14,50 @@ import '../styles/Components.css';
 export default function Portfolio() {
   const projects = [
     {
-      title: "Fitness Tracker 🔗",
-      descriiption: "A mern-stack app for tracking daily exercises.",
+      title: "Flightdex 🔗",
+      descriiption: "Flight, hotel and event searching application.",
       image: pic1,
       github: "https://github.com/joce1ynn/fitness-tracker-MERN",
-      page: "https://fittrack-mlvj.onrender.com/",
+      page: "https://craigrobertsdev.github.io/flightdex/",
     },
     {
-      title: "Book Search Engine 🔗",
+      title: "Spicy Pencils Skills Matcher 🔗",
       descriiption:
-        "A MERN-stack app that allows users to search and save books.",
+        "Node.js - spicy-pencils-skills-matcher.",
       image: pic2,
       github: "https://github.com/joce1ynn/book-search-engine-MERN",
-      page: "https://book-search-mern.onrender.com/",
+      page: "https://spicy-pencils-skills-matcher-1.herokuapp.com/",
     },
     {
-      title: "The Matrix Experience 🔗",
+      title: "SQL-Employee-Tracker 🔗",
       descriiption:
         "A Matrix fan page that lets users save or delete their favorite hovercrafts.",
       image: pic3,
-      github: "https://github.com/AmHum/The-Matrix-Experience",
-      page: "https://matrix-hovercraft.herokuapp.com/",
+      github: "https://github.com/kayden-hyunsikkim/SQL-Employee-Tracker",
+      page: "https://drive.google.com/file/d/1BbBmZkulRwrM5OaTwZwZYpg9277hc3H6/view",
     },
     {
-      title: "Chirp Travel Planner 🔗",
+      title: "Text Editor 🔗",
       descriiption:
         "A travel app that provides users with events and tourist attractions nearby.",
       image: pic4,
-      github: "https://github.com/dhalladay/travel-app-events",
-      page: "https://dhalladay.github.io/travel-app-events/",
+      github: "https://github.com/kayden-hyunsikkim/Progressive-Web-Applications-PWA-Text-Editor",
+      page: "https://text-editor-19-pwa.herokuapp.com/",
     },
 
     {
       title: "Weather Dashboard 🔗",
       descriiption: "A weather app that provides weather outlook for multiple cities.",
       image: pic5,
-      github: "https://github.com/joce1ynn/weather-dashboard-API",
-      page: "https://joce1ynn.github.io/weather-dashboard-API/",
+      github: "https://github.com/kayden-hyunsikkim/JavaScript-Weather-Dashboard-serversideAPI",
+      page: "https://kayden-hyunsikkim.github.io/JavaScript-Weather-Dashboard-serversideAPI/",
     },
     {
-      title: "Code Quiz 🔗",
+      title: "InfiniteLoop Code Quiz 🔗",
       descriiption: "A simple coding quiz app.",
       image: pic6,
-      github: "https://github.com/joce1ynn/code-quiz-API",
-      page: "https://joce1ynn.github.io/code-quiz-API/",
+      github: "https://github.com/kayden-hyunsikkim/InfiniteLoop-Code-Quiz-JavaScript",
+      page: "https://kayden-hyunsikkim.github.io/InfiniteLoop-Code-Quiz-JavaScript/",
     },
 
   ];

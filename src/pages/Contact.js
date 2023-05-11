@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 //import { validateEmail } from "../utils/helpers";
-//import errorIcon from "../assets/icons/error.png";
-//import sendIcon from "../assets/icons/send.png";
+import errorIcon from "../components/assets//error.png";
+import sendIcon from "../components/assets/send.png";
 import Footer from "../components/Footer";
 
 import '../styles/Contact.css';
@@ -13,7 +13,6 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [messageSent, setMessageSent] = useState("");
-  //const [currentPage, setCurrentPage] = useState("Contact");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -124,7 +123,7 @@ export default function Contact() {
                 <img
                   alt="alert"
                   style={{ display: "inline" }}
-                  //src={errorIcon}
+                  src={errorIcon}
                   className="error-icon"
                 />
                 {errorMessage}
@@ -140,7 +139,7 @@ export default function Contact() {
                 <img
                   alt="send"
                   style={{ display: "inline" }}
-                  //src={sendIcon}
+                  src={sendIcon}
                   className="send-icon"
                 />
               </p>
