@@ -1,0 +1,41 @@
+#first {
+    color: white;
+    font-size: 150px;
+    font-family: 'Allan';
+}
+
+#second {
+    margin-top: 190px;
+    margin-right: 20px;
+    color: white;
+    font-size: 60px;
+    float: right;
+    font-family: 'Kalam';
+}
+
+#engname { 
+    color: red;
+    font-style:oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.cursor {
+    display: inline-block;
+    width: 6px;
+    height: 60px;
+    background-color: white;
+    animation: blinkCursor 1s infinite;
+  }
+  
+  @keyframes blinkCursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

@@ -34,6 +34,7 @@ function App() {
     <div>
       {/* // TODO: Add a comment describing what we are passing as props */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+     
       {/* // TODO: Add a comment explaining what is happening on the following line */}
       {RenderPage()}
     </div>
