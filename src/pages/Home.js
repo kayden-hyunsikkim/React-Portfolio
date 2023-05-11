@@ -49,7 +49,7 @@ export default function Home() {
           <span className="cursor"></span>
         </p>
       </div>
-      <Footer/>
+      <Footer currentPage="Home"/>
     </div>
   );
 }

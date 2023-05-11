@@ -13,7 +13,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [messageSent, setMessageSent] = useState("");
-  const [currentPage, setCurrentPage] = useState("Contact");
+  //const [currentPage, setCurrentPage] = useState("Contact");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
