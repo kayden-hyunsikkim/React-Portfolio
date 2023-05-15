@@ -21,3 +21,15 @@
     line-height: 1.5;
     color: white;
 }
+
+@media screen and (min-width:1520px) {
+
+    #about p {
+        font-size: 25px ;
+    }
+
+    #about {   
+        margin-top: 35px;;
+    }
+
+}

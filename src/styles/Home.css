@@ -2,15 +2,17 @@
     color: white;
     font-size: 150px;
     font-family: 'Allan';
+   
 }
 
 #second {
-    margin-top: 190px;
+    margin-top: 200px;
     margin-right: 20px;
     color: white;
     font-size: 60px;
     float: right;
     font-family: 'Kalam';
+    
 }
 
 #engname { 
@@ -39,3 +41,18 @@
       opacity: 0;
     }
   }
+
+  @media screen and (min-width:1520px) {
+
+    #first {
+        font-size: 200px ;
+    }
+
+    #second {
+      font-size: 75px ;
+      margin-top: 230px;
+     
+  }
+
+
+}

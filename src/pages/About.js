@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../components/assets/face-black&white.jpg';
+import Footer from '../components/Footer'
 import '../styles/About.css';
 
 const styles = {

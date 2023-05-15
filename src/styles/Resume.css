@@ -42,3 +42,12 @@ h2 {
     margin-bottom : 10px;
 
 }
+
+@media screen and (min-width:1520px) {
+
+    #resume {
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+
+}
