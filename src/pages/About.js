@@ -11,6 +11,7 @@ const styles = {
 
 export default function About() {
   return (
+    <div>
     <div id='about'>
       <img id='aboutimg' src={logo}></img>
       <div>
@@ -29,6 +30,8 @@ export default function About() {
           Throughout my career, I have been recognized as a good team leader, hardworking individual, loyal, capable of handling pressure, easy to get along with, good at giving instructions, conscientious, organized, always punctual, and a good communicator.<span style ={styles.paragraph}> I have always been dedicated to providing support and guidance to my colleagues and have excelled in new positions.</span>
         </p>
       </div>
+      </div>
+      <Footer/>
     </div>
     
   );

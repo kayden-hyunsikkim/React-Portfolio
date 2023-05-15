@@ -11,6 +11,7 @@
 #about {   
     display:grid;
     grid-template-columns: 500px 1fr;
+    margin-bottom: 80px;
 }
 
 #about p { 
@@ -22,7 +23,7 @@
     color: white;
 }
 
-@media screen and (min-width:1520px) {
+@media screen and (min-width:1500px) {
 
     #about p {
         font-size: 25px ;
