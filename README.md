@@ -67,11 +67,11 @@ npm run deploy
 #### Portfolio Screenshot
 
 ![Screenshot](./src/components/assets/home.jpg)
-![Screenshot](../React-Portfolio/src/components/assets/about.jpg)
-![Screenshot](../React-Portfolio/src/components/assets/project-top.jpg)
-![Screenshot](../React-Portfolio/src/components/assets/project-bottom.jpg)
-![Screenshot](../React-Portfolio/src/components/assets/contact.jpg)
-![Screenshot](../React-Portfolio/src/components/assets/resumepage.jpg)
+![Screenshot](./src/components/assets/about.jpg)
+![Screenshot](./src/components/assets/project-top.jpg)
+![Screenshot](./src/components/assets/project-bottom.jpg)
+![Screenshot](./src/components/assets/contact.jpg)
+![Screenshot](./src/components/assets/resumepage.jpg)
 
 ## License
 
