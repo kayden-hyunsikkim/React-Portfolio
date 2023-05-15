@@ -70,3 +70,13 @@ label {
 
 
 }
+
+
+@media screen and (max-width:1520px) {
+
+    #form {
+        margin-bottom: 80px;
+    }
+
+
+}
