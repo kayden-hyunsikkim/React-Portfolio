@@ -7,9 +7,12 @@ import pic3 from '../components/assets/man.jpg';
 import pic4 from '../components/assets/refactor.jpg';
 import pic5 from '../components/assets/keyboard.jpg';
 import pic6 from '../components/assets/coffee.jpg';
+import pic7 from '../components/assets/githublogo.jpg';
+import pic8 from '../components/assets/coffee.jpg';
+
+import '../styles/Work.css';
 
 
-import '../styles/Components.css';
 
 export default function Portfolio() {
   const projects = [
@@ -31,15 +34,15 @@ export default function Portfolio() {
     {
       title: "SQL-Employee-Tracker 🔗",
       descriiption:
-        "A Matrix fan page that lets users save or delete their favorite hovercrafts.",
+        " Backend Employee tracker applicationby using mySQL ",
       image: pic3,
       github: "https://github.com/kayden-hyunsikkim/SQL-Employee-Tracker",
       page: "https://drive.google.com/file/d/1BbBmZkulRwrM5OaTwZwZYpg9277hc3H6/view",
     },
     {
-      title: "Text Editor 🔗",
+      title: "PWA - Text Editor 🔗",
       descriiption:
-        "A travel app that provides users with events and tourist attractions nearby.",
+        "Backend Text Editor application wth PWA.",
       image: pic4,
       github: "https://github.com/kayden-hyunsikkim/Progressive-Web-Applications-PWA-Text-Editor",
       page: "https://text-editor-19-pwa.herokuapp.com/",
@@ -54,11 +57,28 @@ export default function Portfolio() {
     },
     {
       title: "InfiniteLoop Code Quiz 🔗",
-      descriiption: "A simple coding quiz app.",
+      descriiption: "A simple InfiniteLoop coding quiz app.",
       image: pic6,
       github: "https://github.com/kayden-hyunsikkim/InfiniteLoop-Code-Quiz-JavaScript",
       page: "https://kayden-hyunsikkim.github.io/InfiniteLoop-Code-Quiz-JavaScript/",
     },
+
+    {
+      title: "Comming soon 🔗",
+      descriiption: "It could be with you !!!",
+      image: pic7,
+      github: "#",
+      page: "#",
+    },
+
+    {
+      title: "InfiniteLoop Code Quiz 🔗",
+      descriiption: "It could be with you !!!",
+      image: pic8,
+      github: "https://github.com/kayden-hyunsikkim/InfiniteLoop-Code-Quiz-JavaScript",
+      page: "#",
+    }
+
 
   ];
 
