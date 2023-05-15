@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import { validateEmail } from "../utils/helpers";
+import { validateEmail } from "../utils/helpers";
 import errorIcon from "../components/assets//error.png";
 import sendIcon from "../components/assets/send.png";
 import Footer from "../components/Footer";
@@ -42,11 +42,11 @@ export default function Contact() {
       return;
     }
     // check to see if the email is not valid
-    //if (!validateEmail(email)) {
-    //  setMessageSent("");
-    //  setErrorMessage("Email is invalid.");
-    //  return;
-    //}
+    if (!validateEmail(email)) {
+      setMessageSent("");
+      setErrorMessage("Email is invalid.");
+      return;
+    }
 
     // If everything is good, clear out the input after a successful sending.
     setName("");
@@ -122,7 +122,7 @@ export default function Contact() {
               <p className="error-text">
                 <img
                   alt="alert"
-                  style={{ display: "inline" }}
+                  style={{ display: "inline",  width:'100px', marginTop: '50px' }}
                   src={errorIcon}
                   className="error-icon"
                 />
@@ -135,13 +135,13 @@ export default function Contact() {
           {messageSent && (
             <div>
               <p className="send-text">
-                {messageSent}{" "}
                 <img
                   alt="send"
-                  style={{ display: "inline" }}
+                  style={{ display: "inline",  width:'100px', marginTop: '50px' }}
                   src={sendIcon}
                   className="send-icon"
                 />
+                {messageSent}{" "}
               </p>
             </div>
           )}

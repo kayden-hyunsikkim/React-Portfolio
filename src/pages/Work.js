@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../components/Project";
+import Footer from '../components/Footer';
 // import images
 import pic1 from '../components/assets/jetty.jpg';
 import pic2 from '../components/assets/person.jpg';
@@ -94,8 +95,11 @@ export default function Portfolio() {
   ));
 
   return (
+    <div>
     <div  id="work"  className="container">
       <div className="row project">{projectItem}</div>
+    </div>
+    <Footer/>
     </div>
   );
 }
