@@ -66,7 +66,7 @@ npm run deploy
 
 #### Portfolio Screenshot
 
-![Screenshot](../React-Portfolio/src/components/assets/home.jpg)
+![Screenshot](./src/components/assets/home.jpg)
 ![Screenshot](../React-Portfolio/src/components/assets/about.jpg)
 ![Screenshot](../React-Portfolio/src/components/assets/project-top.jpg)
 ![Screenshot](../React-Portfolio/src/components/assets/project-bottom.jpg)
