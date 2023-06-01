@@ -14,8 +14,10 @@ export default function Project(props) {
         <Card.Text>
           {props.descriiption}
         </Card.Text>
-        <Button id='button' variant="primary" href ={props.github}>Github</Button>
-        <Button id='button' variant="primary" href ={props.page}>Page</Button>
+        <div id='button'>
+        <Button variant="primary" href ={props.github}>Github</Button>
+        <Button variant="primary" href ={props.page}>Page</Button>
+        </div>
       </Card.Body>
     </Card>
   );
