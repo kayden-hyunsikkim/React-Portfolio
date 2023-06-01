@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.7daa79ee.css",
-    "main.js": "/React-Portfolio/static/js/main.c4db5f44.js",
-    "static/media/coffee.jpg": "/React-Portfolio/static/media/coffee.13886d550116638532e5.jpg",
+    "main.css": "/React-Portfolio/static/css/main.88e24d8b.css",
+    "main.js": "/React-Portfolio/static/js/main.9d8361e7.js",
     "static/media/paper2.jpg": "/React-Portfolio/static/media/paper2.28bb2e66b64fa3065e4f.jpg",
+    "static/media/Screenshot home.png": "/React-Portfolio/static/media/Screenshot home.1bbd696626103550dfb8.png",
+    "static/media/GBS.png": "/React-Portfolio/static/media/GBS.193d4006daaa2a32881b.png",
+    "static/media/homepage.png": "/React-Portfolio/static/media/homepage.bedd32d1f4151ca4e24f.png",
+    "static/media/weather.jpg": "/React-Portfolio/static/media/weather.bc5b3b0b381d11ee6daa.jpg",
     "static/media/background.jpg": "/React-Portfolio/static/media/background.5ffc764d0d2e2d2d36c1.jpg",
     "static/media/face-black&white.jpg": "/React-Portfolio/static/media/face-black&white.c4d4cb917d69abe79b80.jpg",
-    "static/media/man.jpg": "/React-Portfolio/static/media/man.451598308efe64b96f57.jpg",
-    "static/media/jetty.jpg": "/React-Portfolio/static/media/jetty.e2af26b4b510fa7e6290.jpg",
+    "static/media/infinite.jpg": "/React-Portfolio/static/media/infinite.1ecfe243be2fe6e1e780.jpg",
     "static/media/Kayden_RESUME_hyunsik kim-developer.pdf": "/React-Portfolio/static/media/Kayden_RESUME_hyunsik kim-developer.17f2a1c3fefaa6f6d027.pdf",
     "static/media/COVER+LETTER_hyunsik+kim(KAYDEN)-developer.pdf": "/React-Portfolio/static/media/COVER+LETTER_hyunsik+kim(KAYDEN)-developer.2339adf1caac3ceb5a07.pdf",
-    "static/media/keyboard.jpg": "/React-Portfolio/static/media/keyboard.fe31fa1c675aedd7ab2f.jpg",
+    "static/media/employee.jpg": "/React-Portfolio/static/media/employee.b56fe56bc52784b06818.jpg",
+    "static/media/TEXT EDITOR.jpg": "/React-Portfolio/static/media/TEXT EDITOR.b979f3314d8baa96f32c.jpg",
+    "static/media/filghtdex.png": "/React-Portfolio/static/media/filghtdex.441c6857535e542f3796.png",
     "static/media/send.png": "/React-Portfolio/static/media/send.dda6d72ae9aede755a83.png",
-    "static/media/refactor.jpg": "/React-Portfolio/static/media/refactor.43042774a278303a2588.jpg",
-    "static/media/githublogo.jpg": "/React-Portfolio/static/media/githublogo.61bf296a09e5df2d8169.jpg",
     "static/media/phone.jpg": "/React-Portfolio/static/media/phone.a7878454110e7e838fea.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.7daa79ee.css.map": "/React-Portfolio/static/css/main.7daa79ee.css.map",
-    "main.c4db5f44.js.map": "/React-Portfolio/static/js/main.c4db5f44.js.map"
+    "main.88e24d8b.css.map": "/React-Portfolio/static/css/main.88e24d8b.css.map",
+    "main.9d8361e7.js.map": "/React-Portfolio/static/js/main.9d8361e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7daa79ee.css",
-    "static/js/main.c4db5f44.js"
+    "static/css/main.88e24d8b.css",
+    "static/js/main.9d8361e7.js"
   ]
 }
