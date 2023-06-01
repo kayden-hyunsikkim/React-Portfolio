@@ -18,9 +18,16 @@ import '../styles/Work.css';
 export default function Portfolio() {
   const projects = [
     {
+      title: "The Chatty 🔗",
+      descriiption: "MERN stack - Chatbot with openAI (chatGPT)",
+      image: pic1,
+      github: "https://github.com/kayden-hyunsikkim/Thechatty",
+      page: "https://thechatty.herokuapp.com/",
+    },
+    {
       title: "Flightdex 🔗",
       descriiption: "Flight, hotel and event searching application.",
-      image: pic1,
+      image: pic2,
       github: "https://github.com/joce1ynn/fitness-tracker-MERN",
       page: "https://craigrobertsdev.github.io/flightdex/",
     },
@@ -28,7 +35,7 @@ export default function Portfolio() {
       title: "Spicy Pencils Skills Matcher 🔗",
       descriiption:
         "Node.js - spicy-pencils-skills-matcher.",
-      image: pic2,
+      image: pic3,
       github: "https://github.com/joce1ynn/book-search-engine-MERN",
       page: "https://spicy-pencils-skills-matcher-1.herokuapp.com/",
     },
@@ -36,7 +43,7 @@ export default function Portfolio() {
       title: "SQL-Employee-Tracker 🔗",
       descriiption:
         " Backend Employee tracker applicationby using mySQL ",
-      image: pic3,
+      image: pic4,
       github: "https://github.com/kayden-hyunsikkim/SQL-Employee-Tracker",
       page: "https://drive.google.com/file/d/1BbBmZkulRwrM5OaTwZwZYpg9277hc3H6/view",
     },
@@ -44,7 +51,7 @@ export default function Portfolio() {
       title: "PWA - Text Editor 🔗",
       descriiption:
         "Backend Text Editor application wth PWA.",
-      image: pic4,
+      image: pic5,
       github: "https://github.com/kayden-hyunsikkim/Progressive-Web-Applications-PWA-Text-Editor",
       page: "https://text-editor-19-pwa.herokuapp.com/",
     },
@@ -52,14 +59,14 @@ export default function Portfolio() {
     {
       title: "Weather Dashboard 🔗",
       descriiption: "A weather app that provides weather outlook for multiple cities.",
-      image: pic5,
+      image: pic6,
       github: "https://github.com/kayden-hyunsikkim/JavaScript-Weather-Dashboard-serversideAPI",
       page: "https://kayden-hyunsikkim.github.io/JavaScript-Weather-Dashboard-serversideAPI/",
     },
     {
       title: "InfiniteLoop Code Quiz 🔗",
       descriiption: "A simple InfiniteLoop coding quiz app.",
-      image: pic6,
+      image: pic7,
       github: "https://github.com/kayden-hyunsikkim/InfiniteLoop-Code-Quiz-JavaScript",
       page: "https://kayden-hyunsikkim.github.io/InfiniteLoop-Code-Quiz-JavaScript/",
     },
@@ -67,19 +74,10 @@ export default function Portfolio() {
     {
       title: "Comming soon 🔗",
       descriiption: "It could be with you !!!",
-      image: pic7,
+      image: pic8,
       github: "#",
       page: "#",
     },
-
-    {
-      title: "InfiniteLoop Code Quiz 🔗",
-      descriiption: "It could be with you !!!",
-      image: pic8,
-      github: "https://github.com/kayden-hyunsikkim/InfiniteLoop-Code-Quiz-JavaScript",
-      page: "#",
-    }
-
 
   ];
 
