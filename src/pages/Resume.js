@@ -1,5 +1,5 @@
 import React from "react";
-import CV from '../components/assets/resume/Kayden_RESUME_hyunsik kim-developer.pdf';
+import CV from '../components/assets/resume/resume.pdf';
 import CL from '../components/assets/resume/COVER+LETTER_hyunsik+kim(KAYDEN)-developer.pdf';
 import download from "../components/assets/download.jpg";
 import Footer from '../components/Footer';
