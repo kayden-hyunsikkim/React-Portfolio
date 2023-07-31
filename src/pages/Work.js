@@ -28,24 +28,24 @@ export default function Portfolio() {
     {
       title: "Spicy Pencils Skills Matcher 🔗",
       descriiption:
-        "Node.js - spicy-pencils-skills-matcher.",
+        "MVC - spicy-pencils-skills-matcher.",
       image: pic2,
-      github: "https://github.com/joce1ynn/book-search-engine-MERN",
+      github: "https://github.com/lilyhargreaves/spicy-pencils-skills-matcher",
       page: "https://spicy-pencils-skills-matcher-1.herokuapp.com/",
     },
     {
       title: "Flightdex 🔗",
-      descriiption: "Flight, hotel and event searching application.",
+      descriiption: "RestAPI - Flight, hotel and event searching application.",
       image: pic3,
-      github: "https://github.com/joce1ynn/fitness-tracker-MERN",
+      github: "https://github.com/craigrobertsdev/flightdex",
       page: "https://craigrobertsdev.github.io/flightdex/",
     },
     {
       title: "Book search engine 🔗",
       descriiption: "MERN stack - Book search engine with google API.",
       image: pic4,
-      github: "#",
-      page: "#",
+      github: "https://github.com/kayden-hyunsikkim/Book-Search-Engine",
+      page: "https://google-book-searchengine.herokuapp.com/",
     },
 
     {
@@ -66,14 +66,14 @@ export default function Portfolio() {
     },
 
     {
-      title: "Weather Dashboard 🔗",
+      title: "Rest API - Weather Dashboard 🔗",
       descriiption: "A weather app that provides weather for multiple cities.",
       image: pic7,
       github: "https://github.com/kayden-hyunsikkim/JavaScript-Weather-Dashboard-serversideAPI",
       page: "https://kayden-hyunsikkim.github.io/JavaScript-Weather-Dashboard-serversideAPI/",
     },
     {
-      title: "InfiniteLoop Code Quiz 🔗",
+      title: "JS-InfiniteLoop Code Quiz 🔗",
       descriiption: "A simple InfiniteLoop coding quiz app.",
       image: pic8,
       github: "https://github.com/kayden-hyunsikkim/InfiniteLoop-Code-Quiz-JavaScript",

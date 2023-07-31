@@ -8,7 +8,7 @@ function Header({ currentPage, handlePageChange }) {
     return (
         <>
         <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}><h1><img src={logo}></img>Hyunsik <span id="engname">Kayden</span> Kim</h1></a>          
-        
+
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
         </>
     );

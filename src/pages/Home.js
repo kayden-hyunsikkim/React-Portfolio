@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <div>
       <div>
-        <p id='first'>The Full stack Developer & UI/UX Designer</p>
+        <p id='first'>The Full stack Developer & UI/UX Designer!</p>
         <p id='second'>
           {text}
           <span id="engname">{name}</span>
