@@ -10,6 +10,8 @@ import pic5 from '../components/assets/employee.jpg';
 import pic6 from '../components/assets/TEXT EDITOR.jpg';
 import pic7 from '../components/assets/weather.jpg';
 import pic8 from '../components/assets/infinite.jpg';
+import pic9 from '../components/assets/AI_upscaled.png';
+import pic10 from '../components/assets/otherhomeWeb.png';
 
 
 import '../styles/Work.css';
@@ -18,6 +20,20 @@ import '../styles/Work.css';
 
 export default function Portfolio() {
   const projects = [
+    {
+      title: "Adelaide inside🔗",
+      descriiption: "community website for Korean immigrants in Adelaide",
+      image: pic9,
+      github: "https://github.com/kayden-hyunsikkim/Thechatty",
+      page: "https://adelaideinside.com/",
+    },
+    {
+      title: "Otherhome company website 🔗",
+      descriiption: "PHP,Wordpress - company website",
+      image: pic10,
+      github: "https://github.com/kayden-hyunsikkim/Thechatty",
+      page: "https://otherhome.com.au/",
+    },
     {
       title: "The Chatty 🔗",
       descriiption: "MERN stack - Chatbot with openAI (chatGPT)",
