@@ -15,7 +15,6 @@ export default function Project(props) {
           {props.descriiption}
         </Card.Text>
         <div id='button'>
-        <Button variant="primary" href ={props.github}>Github</Button>
         <Button variant="primary" href ={props.page}>Page</Button>
         </div>
       </Card.Body>
