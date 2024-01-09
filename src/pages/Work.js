@@ -35,13 +35,13 @@ export default function Portfolio() {
     },
     {
       title: "Otherhome company website 🔗",
-      descriiption: "PHP,Wordpress - company website",
+      descriiption: "PHP,Wordpress - Server migration of company website",
       image: pic10,
       page: "https://otherhome.com.au/",
     },
     {
       title: "Otherhome ticket website 🔗",
-      descriiption: "Migration server of company ticket website",
+      descriiption: "Server migration of company ticket website",
       image: pic11,
       page: "https://support.otherhome.com.au/",
     },
