@@ -27,7 +27,7 @@ export default function Portfolio() {
     },
     {
       title: "Adelaide inside🔗",
-      descriiption: "community website for Korean immigrants in Adelaide",
+      descriiption: "LAMP stack - community website for Korean in AU",
       image: pic9,
       page: "https://adelaideinside.com/",
     },

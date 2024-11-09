@@ -1,5 +1,5 @@
 #aboutimg {   
-    margin-top: 70px;
+    margin-top: 80px;
     max-width: 400px;
     max-height: 500px;
     padding: 10px;
@@ -26,11 +26,25 @@
 @media screen and (min-width:1500px) {
 
     #about p {
-        font-size: 25px ;
+        font-size: 21px ;
     }
 
     #about {   
-        margin-top: 35px;;
+        margin-top: 0px;;
     }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    #about p {
+        font-size: 28px;
+        /* 원하는 크기로 조정 */
+    }
+
+        #about {
+            margin-bottom: 150px;
+            /* 원하는 여백으로 조정 */
+        }
 
 }

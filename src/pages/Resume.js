@@ -1,16 +1,15 @@
 import React from "react";
-import CV from '../components/assets/resume/resume.pdf';
-import CL from '../components/assets/resume/COVER+LETTER_hyunsik+kim(KAYDEN)-developer.pdf';
+import CV from "../components/assets/resume/Kayden Hyunsik Kim_Resume.pdf";
+import CL from "../components/assets/resume/KaydenKim__Coverletter.pdf";
 import download from "../components/assets/download.jpg";
-import Footer from '../components/Footer';
+import Footer from "../components/Footer";
 
-import '../styles/Resume.css';
-
+import "../styles/Resume.css";
 
 export default function Resume() {
   return (
     <div>
-      <div id='resume' className="resume-div">
+      <div id="resume" className="resume-div">
         <div className="skill-div">
           {/* --------Frontend Skills------------ */}
           <div className="fskill">
@@ -48,10 +47,15 @@ export default function Resume() {
           </div>
         </div>
         {/* download CV */}
-        <a href={CV} target="_blank" rel="noopener noreferrer" className="download">
+        <a
+          href={CV}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download"
+        >
           Download Resume
           <img
-            id ='download'
+            id="download"
             alt="download"
             style={{ display: "inline" }}
             src={download}
@@ -59,10 +63,15 @@ export default function Resume() {
           />
         </a>
         {/* download Coverletter */}
-        <a href={CL} target="_blank" rel="noopener noreferrer" className="download">
+        <a
+          href={CL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download"
+        >
           Download Cover Letter
           <img
-            id ='download'
+            id="download"
             alt="download"
             style={{ display: "inline" }}
             src={download}
@@ -70,7 +79,7 @@ export default function Resume() {
           />
         </a>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
