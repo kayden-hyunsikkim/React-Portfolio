@@ -1,38 +1,57 @@
 import React from "react";
-import logo from '../components/assets/face-black&white.jpg';
-import Footer from '../components/Footer'
-import '../styles/About.css';
+import logo from "../components/assets/face-black&white.jpg";
+import Footer from "../components/Footer";
+import "../styles/About.css";
 
 const styles = {
   paragraph: {
-    color: 'yellow'
-  }
-}
+    color: "yellow",
+  },
+};
 
 export default function About() {
   return (
     <div>
-    <div id='about'>
-      <img id='aboutimg' src={logo}></img>
-      <div>
-        <p>
-          I'm HYUNSIK KIM (Eng: kayden) who has a diploma degree (Korean) in mechatronics and is going to receive a bootcamp certificate in June 2023.
-          <span style ={styles.paragraph}> When it comes to my career as a mechanical engineer, I have 3 years of experience working for Samsung Electronics in the semiconductor field.</span> 
-          <br></br>
-          <br></br>
-          My duties included maintaining
-          and repairing equipment to ensure 24/7 operation without errors. As an engineer in charge of LAM (Lam Research Corporation) semiconductor manufacturing equipment, I also managed and trained junior engineers, created rosters, and set up a new ER system for new DRAM (dynamic random access memory) production. <span style ={styles.paragraph}>Additionally, I have 4 years of experience as a chef in the hospitality field during my time in Australia.</span>
-          <br></br>
-          <br></br>
-          <span style ={styles.paragraph}>As for my personal qualities, I am a fast learner and pay great attention to detail. I have consistently been praised by supervisors, managers, and colleagues for being reliable and faithful. I possess excellent time management and forward planning skills.</span>
-          <br></br>
-          <br></br>
-          Throughout my career, I have been recognized as a good team leader, hardworking individual, loyal, capable of handling pressure, easy to get along with, good at giving instructions, conscientious, organized, always punctual, and a good communicator.<span style ={styles.paragraph}> I have always been dedicated to providing support and guidance to my colleagues and have excelled in new positions.</span>
-        </p>
+      <div id="about">
+        <img id="aboutimg" src={logo}></img>
+        <div>
+          <p>
+            I'm HYUNSIK KIM (Eng: kayden) who is a Software Engineer with
+            proficiency in application development, testing, and optimization.
+            Demonstrates excellence in collaborating on the planning,
+            programming, and implementation of core modules from the ground up.
+            <span style={styles.paragraph}>
+              {" "}
+              In my career as a software engineer, I have two years of
+              experience working for Otherhome Pty Ltd in the startup field.
+            </span>
+            <br></br>
+            <br></br>
+            At Otherhome Pty Ltd, I a cloud computing-based server system for an
+            in-house messenger application while balancing performance and cost
+            efficiency. Also built the company’s email system, developed its
+            main website and ticketing platform using WordPress, and improved
+            customer communication.{" "}
+            <span style={styles.paragraph}>
+              I also designed and implemented a CI/CD pipeline for a LAMP
+              stack-based community website for Korean immigrants, which I
+              developed and that has over 200,000 visitors.
+            </span>
+            <br></br>
+            <br></br>
+            Throughout my career, I have been recognized as a person who is a
+            good team leader, very hardworking , organised and good
+            communicator.
+            <span style={styles.paragraph}>
+              {" "}
+              With solid experience in cloud infrastructure, system
+              administration, and full-stack development, I’m confident I can
+              contribute effectively to your team.
+            </span>
+          </p>
+        </div>
       </div>
-      </div>
-      <Footer/>
+      <Footer />
     </div>
-    
   );
 }

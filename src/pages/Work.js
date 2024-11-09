@@ -1,26 +1,30 @@
 import React from "react";
 import Project from "../components/Project";
-import Footer from '../components/Footer';
+import Footer from "../components/Footer";
 // import images
-import pic1 from '../components/assets/Screenshot home.png';
-import pic2 from '../components/assets/chat.png';
-import pic3 from '../components/assets/filghtdex.png';
-import pic4 from '../components/assets/GBS.png';
-import pic5 from '../components/assets/employee.jpg';
-import pic6 from '../components/assets/TEXT EDITOR.jpg';
-import pic7 from '../components/assets/weather.jpg';
-import pic8 from '../components/assets/infinite.jpg';
-import pic9 from '../components/assets/AI_upscaled.png';
-import pic10 from '../components/assets/otherhomeWeb.png';
-import pic11 from '../components/assets/ticket.png';
+import pic1 from "../components/assets/Screenshot home.png";
+import pic2 from "../components/assets/chat.png";
+import pic3 from "../components/assets/filghtdex.png";
+import pic4 from "../components/assets/GBS.png";
+import pic5 from "../components/assets/employee.jpg";
+import pic6 from "../components/assets/TEXT EDITOR.jpg";
+import pic7 from "../components/assets/weather.jpg";
+import pic8 from "../components/assets/infinite.jpg";
+import pic9 from "../components/assets/AI_upscaled.png";
+import pic10 from "../components/assets/otherhomeWeb.png";
+import pic11 from "../components/assets/ticket.png";
+import pic12 from "../components/assets/chiro.png";
 
-
-import '../styles/Work.css';
-
-
+import "../styles/Work.css";
 
 export default function Portfolio() {
   const projects = [
+    {
+      title: "Realign Health CHIRO🔗",
+      descriiption: "PHP,Wordpress - Web development for client",
+      image: pic12,
+      page: "https://realignhealthchiro.com/",
+    },
     {
       title: "Adelaide inside🔗",
       descriiption: "community website for Korean immigrants in Adelaide",
@@ -35,13 +39,13 @@ export default function Portfolio() {
     },
     {
       title: "Otherhome company website 🔗",
-      descriiption: "PHP,Wordpress - Server migration of company website",
+      descriiption: "PHP,Wordpress - Company website",
       image: pic10,
       page: "https://otherhome.com.au/",
     },
     {
       title: "Otherhome ticket website 🔗",
-      descriiption: "Server migration of company ticket website",
+      descriiption: "PHP,Wordpress - company ticket website",
       image: pic11,
       page: "https://support.otherhome.com.au/",
     },
@@ -66,15 +70,13 @@ export default function Portfolio() {
 
     {
       title: "SQL-Employee-Tracker 🔗",
-      descriiption:
-        " Backend Employee tracker applicationby using mySQL ",
+      descriiption: " Backend Employee tracker applicationby using mySQL ",
       image: pic5,
       page: "https://drive.google.com/file/d/1BbBmZkulRwrM5OaTwZwZYpg9277hc3H6/view",
     },
     {
       title: "PWA - Text Editor 🔗",
-      descriiption:
-        "Backend Text Editor application wth PWA.",
+      descriiption: "Backend Text Editor application wth PWA.",
       image: pic6,
       page: "https://text-editor-19-pwa.herokuapp.com/",
     },
@@ -91,7 +93,6 @@ export default function Portfolio() {
       image: pic8,
       page: "https://kayden-hyunsikkim.github.io/InfiniteLoop-Code-Quiz-JavaScript/",
     },
-
   ];
 
   const projectItem = projects.map((projects) => (
@@ -113,5 +114,3 @@ export default function Portfolio() {
     </div>
   );
 }
-
-
