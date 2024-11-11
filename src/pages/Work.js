@@ -16,6 +16,7 @@ import pic11 from "../components/assets/ticket.png";
 import pic12 from "../components/assets/chiro.png";
 import pic13 from "../components/assets/ios.png";
 import pic14 from "../components/assets/android.png";
+import pic15 from "../components/assets/flutter.png";
 
 import "../styles/Work.css";
 
@@ -62,6 +63,12 @@ export default function Portfolio() {
       descriiption: "PHP,Wordpress - company ticket website",
       image: pic11,
       page: "https://support.otherhome.org/",
+    },
+    {
+      title: "Otherhome messenger sample 🔗",
+      descriiption: "Flutter,Firebase - sample application",
+      image: pic15,
+      page: "https://github.com/kayden-hyunsikkim/Otherhome-chatting-app",
     },
     {
       title: "The Chatty 🔗",
