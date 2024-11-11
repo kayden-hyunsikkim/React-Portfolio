@@ -14,6 +14,11 @@ span {
     color: red;
 }
 
+span:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
 
 .input-div {
     font-size: 25px;

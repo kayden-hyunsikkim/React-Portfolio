@@ -55,12 +55,16 @@ export default function Contact() {
     setMessageSent(`Hello ${name}! Your message has been sent`);
   };
 
+  function handleClick() {
+    window.open("mailto:kayden190116@gmail.com");
+  }
+
   return (
     <div>
       <div id="form">
         <h1 className="title">Send a Message</h1>
         <div className="email-div">
-          <p>
+          <p onClick={handleClick}>
             Contact me at <span>kayden190116@gmail.com</span> or through the
             following form.
           </p>
