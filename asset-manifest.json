@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.21442255.css",
-    "main.js": "/React-Portfolio/static/js/main.db4e6f55.js",
+    "main.js": "/React-Portfolio/static/js/main.939ca039.js",
     "static/media/chiro.png": "/React-Portfolio/static/media/chiro.5627bedf03a6f3a1a5dd.png",
     "static/media/paper2.jpg": "/React-Portfolio/static/media/paper2.28bb2e66b64fa3065e4f.jpg",
     "static/media/Screenshot home.png": "/React-Portfolio/static/media/Screenshot home.1bbd696626103550dfb8.png",
@@ -10,7 +10,6 @@
     "static/media/AI_upscaled.png": "/React-Portfolio/static/media/AI_upscaled.6caaef0d0b0b2681aac4.png",
     "static/media/weather.jpg": "/React-Portfolio/static/media/weather.bc5b3b0b381d11ee6daa.jpg",
     "static/media/background.jpg": "/React-Portfolio/static/media/background.5ffc764d0d2e2d2d36c1.jpg",
-    "static/media/face-black&white.jpg": "/React-Portfolio/static/media/face-black&white.c4d4cb917d69abe79b80.jpg",
     "static/media/infinite.jpg": "/React-Portfolio/static/media/infinite.1ecfe243be2fe6e1e780.jpg",
     "static/media/Kayden Hyunsik Kim_Resume.pdf": "/React-Portfolio/static/media/Kayden Hyunsik Kim_Resume.fe3e55fb56b7aa30b395.pdf",
     "static/media/chat.png": "/React-Portfolio/static/media/chat.51ae1bb16910984ba3c0.png",
@@ -19,14 +18,15 @@
     "static/media/ticket.png": "/React-Portfolio/static/media/ticket.888feeef0ce26837ef39.png",
     "static/media/filghtdex.png": "/React-Portfolio/static/media/filghtdex.441c6857535e542f3796.png",
     "static/media/KaydenKim__Coverletter.pdf": "/React-Portfolio/static/media/KaydenKim__Coverletter.56e62f6c84224e0d215f.pdf",
+    "static/media/aboutpicture.jpg": "/React-Portfolio/static/media/aboutpicture.c1eb4ba14522a62a5902.jpg",
     "static/media/send.png": "/React-Portfolio/static/media/send.dda6d72ae9aede755a83.png",
     "static/media/phone.jpg": "/React-Portfolio/static/media/phone.a7878454110e7e838fea.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.21442255.css.map": "/React-Portfolio/static/css/main.21442255.css.map",
-    "main.db4e6f55.js.map": "/React-Portfolio/static/js/main.db4e6f55.js.map"
+    "main.939ca039.js.map": "/React-Portfolio/static/js/main.939ca039.js.map"
   },
   "entrypoints": [
     "static/css/main.21442255.css",
-    "static/js/main.db4e6f55.js"
+    "static/js/main.939ca039.js"
   ]
 }
