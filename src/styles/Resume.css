@@ -25,7 +25,11 @@ h2 {
 }
 
 .skill {
-    margin-top: 150px;
+    margin-top: 50px;
+}
+
+.tag {
+    text-align: center;
 }
 
 .tag span {
@@ -37,16 +41,21 @@ h2 {
     background-color: white;
 }
 
+.tag span:hover {
+    color: red;
+    cursor: default;
+}
+
 .download {
     margin-top: 50px;
     margin-bottom : 10px;
 
 }
 
-@media screen and (min-width:1520px) {
+@media screen and (min-width:1536px) {
 
     #resume {
-        margin-top: 150px;
+        margin-top: 130px;
         margin-bottom: 200px;
     }
 
@@ -54,10 +63,11 @@ h2 {
 
 
 
-@media screen and (max-width:1520px) {
+@media screen and (max-width:1536px) {
 
     #resume {
-        margin-bottom: 70px;
+        margin-top: 60px;
+        margin-bottom: 63px;
     }
 
 }
