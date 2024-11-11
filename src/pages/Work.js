@@ -3,7 +3,7 @@ import Project from "../components/Project";
 import Footer from "../components/Footer";
 // import images
 import pic1 from "../components/assets/Screenshot home.png";
-import pic2 from "../components/assets/chat.png";
+import pic2 from "../components/assets/server.png";
 import pic3 from "../components/assets/filghtdex.png";
 import pic4 from "../components/assets/GBS.png";
 import pic5 from "../components/assets/employee.jpg";
@@ -14,6 +14,8 @@ import pic9 from "../components/assets/AI_upscaled.png";
 import pic10 from "../components/assets/otherhomeWeb.png";
 import pic11 from "../components/assets/ticket.png";
 import pic12 from "../components/assets/chiro.png";
+import pic13 from "../components/assets/ios.png";
+import pic14 from "../components/assets/android.png";
 
 import "../styles/Work.css";
 
@@ -26,34 +28,46 @@ export default function Portfolio() {
       page: "https://realignhealthchiro.com/",
     },
     {
-      title: "Adelaide inside🔗",
+      title: "Adelaide Inside🔗",
       descriiption: "LAMP stack - community website for Korean in AU",
       image: pic9,
       page: "https://adelaideinside.com/",
     },
     {
-      title: "Otherhome messenger 🔗",
-      descriiption: "XMPP protocol - In-house messenger",
+      title: "Otherhome messenger (Server) 🔗",
+      descriiption: "Linux based Cloud server-In-house messenger",
       image: pic2,
+      page: "https://otherhome.au:9091/index.jsp",
+    },
+    {
+      title: "Otherhome messenger (Android) 🔗",
+      descriiption: "Android(Java)-In-house messenger",
+      image: pic14,
       page: "https://play.google.com/store/search?q=otherhome&c=apps",
+    },
+    {
+      title: "Otherhome messenger (ios) 🔗",
+      descriiption: "ios(swift)-In-house messenger",
+      image: pic13,
+      page: "https://apps.apple.com/au/app/oh-sharehouse/id6557050809",
     },
     {
       title: "Otherhome company website 🔗",
       descriiption: "PHP,Wordpress - Company website",
       image: pic10,
-      page: "https://otherhome.com.au/",
+      page: "https://otherhome.org/",
     },
     {
       title: "Otherhome ticket website 🔗",
       descriiption: "PHP,Wordpress - company ticket website",
       image: pic11,
-      page: "https://support.otherhome.com.au/",
+      page: "https://support.otherhome.org/",
     },
     {
       title: "The Chatty 🔗",
       descriiption: "MERN stack - Chatbot with openAI (chatGPT)",
       image: pic1,
-      page: "https://thechatty.herokuapp.com/",
+      page: "https://github.com/kayden-hyunsikkim/Thechatty",
     },
     {
       title: "Flightdex 🔗",
@@ -65,14 +79,7 @@ export default function Portfolio() {
       title: "Book search engine 🔗",
       descriiption: "MERN stack - Book search engine with google API.",
       image: pic4,
-      page: "https://google-book-searchengine.herokuapp.com/",
-    },
-
-    {
-      title: "SQL-Employee-Tracker 🔗",
-      descriiption: " Backend Employee tracker applicationby using mySQL ",
-      image: pic5,
-      page: "https://drive.google.com/file/d/1BbBmZkulRwrM5OaTwZwZYpg9277hc3H6/view",
+      page: "https://github.com/kayden-hyunsikkim/Book-Search-Engine",
     },
     {
       title: "PWA - Text Editor 🔗",

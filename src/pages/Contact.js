@@ -4,8 +4,7 @@ import errorIcon from "../components/assets//error.png";
 import sendIcon from "../components/assets/send.png";
 import Footer from "../components/Footer";
 
-import '../styles/Contact.css';
-
+import "../styles/Contact.css";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -58,11 +57,12 @@ export default function Contact() {
 
   return (
     <div>
-      <div id='form'>
+      <div id="form">
         <h1 className="title">Send a Message</h1>
         <div className="email-div">
           <p>
-            Contact me at <span>rlagustlr122@naver.com</span> or through the following form.
+            Contact me at <span>kayden190116@gmail.com</span> or through the
+            following form.
           </p>
         </div>
 
@@ -81,19 +81,19 @@ export default function Contact() {
 
           {/* -------------------Fill out emaill------------------  */}
           <div className="input-div">
-            <label htmlFor="email">Email : </label> 
+            <label htmlFor="email">Email : </label>
             <input
               value={email}
               name="email"
               onChange={handleInputChange}
               type="email"
-              placeholder="rlagustlr122@naver.com"
+              placeholder="kayden190116@gmail.com"
             />
           </div>
 
           {/* -------------------Fill out message------------------  */}
           <div className="input-div">
-            <label htmlFor="message">Message : </label> 
+            <label htmlFor="message">Message : </label>
             <textarea
               value={message}
               name="message"
@@ -106,7 +106,7 @@ export default function Contact() {
 
           {/* -------------------submit btn------------------  */}
           <div className="send">
-            <button 
+            <button
               className="send-btn"
               type="button"
               onClick={handleFormSubmit}
@@ -122,7 +122,11 @@ export default function Contact() {
               <p className="error-text">
                 <img
                   alt="alert"
-                  style={{ display: "inline",  width:'100px', marginTop: '50px' }}
+                  style={{
+                    display: "inline",
+                    width: "100px",
+                    marginTop: "50px",
+                  }}
                   src={errorIcon}
                   className="error-icon"
                 />
@@ -137,7 +141,11 @@ export default function Contact() {
               <p className="send-text">
                 <img
                   alt="send"
-                  style={{ display: "inline",  width:'100px', marginTop: '50px' }}
+                  style={{
+                    display: "inline",
+                    width: "100px",
+                    marginTop: "50px",
+                  }}
                   src={sendIcon}
                   className="send-icon"
                 />
@@ -149,6 +157,5 @@ export default function Contact() {
       </div>
       <Footer currentPage="Contact" />
     </div>
-    
   );
 }
