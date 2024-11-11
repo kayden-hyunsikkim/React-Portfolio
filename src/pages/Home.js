@@ -42,14 +42,14 @@ export default function Home() {
   return (
     <div>
       <div>
-        <p id='first'>The Full stack Developer & UI/UX Designer!</p>
-        <p id='second'>
+        <p id="first">The Software Engineer & Full stack Developer!</p>
+        <p id="second">
           {text}
           <span id="engname">{name}</span>
           <span className="cursor"></span>
         </p>
       </div>
-      <Footer currentPage="Home"/>
+      <Footer currentPage="Home" />
     </div>
   );
 }
