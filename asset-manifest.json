@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.28c2105f.css",
-    "main.js": "/React-Portfolio/static/js/main.5cafd4bc.js",
+    "main.js": "/React-Portfolio/static/js/main.d7be25ab.js",
     "static/media/chiro.png": "/React-Portfolio/static/media/chiro.5627bedf03a6f3a1a5dd.png",
     "static/media/paper2.jpg": "/React-Portfolio/static/media/paper2.28bb2e66b64fa3065e4f.jpg",
     "static/media/Screenshot home.png": "/React-Portfolio/static/media/Screenshot home.1bbd696626103550dfb8.png",
     "static/media/otherhomeWeb.png": "/React-Portfolio/static/media/otherhomeWeb.33a79c1bbbf030b51a3d.png",
     "static/media/GBS.png": "/React-Portfolio/static/media/GBS.193d4006daaa2a32881b.png",
+    "static/media/flutter.png": "/React-Portfolio/static/media/flutter.49c577e1f7b0e0988411.png",
     "static/media/android.png": "/React-Portfolio/static/media/android.ff04496d063fae9e58ba.png",
     "static/media/AI_upscaled.png": "/React-Portfolio/static/media/AI_upscaled.6caaef0d0b0b2681aac4.png",
     "static/media/weather.jpg": "/React-Portfolio/static/media/weather.bc5b3b0b381d11ee6daa.jpg",
@@ -25,10 +26,10 @@
     "static/media/phone.jpg": "/React-Portfolio/static/media/phone.a7878454110e7e838fea.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.28c2105f.css.map": "/React-Portfolio/static/css/main.28c2105f.css.map",
-    "main.5cafd4bc.js.map": "/React-Portfolio/static/js/main.5cafd4bc.js.map"
+    "main.d7be25ab.js.map": "/React-Portfolio/static/js/main.d7be25ab.js.map"
   },
   "entrypoints": [
     "static/css/main.28c2105f.css",
-    "static/js/main.5cafd4bc.js"
+    "static/js/main.d7be25ab.js"
   ]
 }
