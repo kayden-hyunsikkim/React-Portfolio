@@ -20,6 +20,7 @@ span:hover {
 }
 
 
+
 .input-div {
     font-size: 25px;
     margin-top: 20px;
@@ -66,21 +67,22 @@ label {
     border: 3px solid transparent white;
 }
 
-@media screen and (min-width:1520px) {
+@media screen and (min-width:1536px) {
 
     #form {
-        margin-top: 144px;
-        margin-bottom: 200px;
+        margin-top: 130px;
+        margin-bottom: 222px;
     }
 
 
 }
 
 
-@media screen and (max-width:1520px) {
+@media screen and (max-width:1536px) {
 
     #form {
-        margin-bottom: 80px;
+        margin-top: 65px;
+        margin-bottom: 85px;
     }
 
 

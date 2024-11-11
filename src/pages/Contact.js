@@ -65,7 +65,7 @@ export default function Contact() {
         <h1 className="title">Send a Message</h1>
         <div className="email-div">
           <p onClick={handleClick}>
-            Contact me at <span>kayden190116@gmail.com</span> or through the
+            Contact me at <span id="email">kayden190116@gmail.com</span> or through the
             following form.
           </p>
         </div>

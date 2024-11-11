@@ -12,7 +12,7 @@ function handleClick() {
 }
 
 function Footer({ currentPage }) {
-  const footerStyle = currentPage === "Home" ? { marginTop: "350px" } : {};
+  const footerStyle = currentPage === "Home" ? { marginTop: "352.5px" } : {};
 
   return (
     <>

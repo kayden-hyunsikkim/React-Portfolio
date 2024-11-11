@@ -26,11 +26,12 @@
 @media screen and (min-width:1500px) {
 
     #about p {
-        font-size: 21px ;
+        font-size: 21.5px ;
     }
 
     #about {   
-        margin-top: 0px;;
+        margin-bottom: 45px;
+        
     }
 
 }
@@ -43,7 +44,7 @@
     }
 
         #about {
-            margin-bottom: 150px;
+            margin-bottom: 175px;
             /* 원하는 여백으로 조정 */
         }
 

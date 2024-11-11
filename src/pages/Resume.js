@@ -21,7 +21,7 @@ export default function Resume() {
               <span>CSS</span>
               <span>Bootstrap</span>
               <span>JQuery</span>
-              <span>Handlebars.js</span>
+              <span>Bulma</span>
               <span>JSON</span>
               <span>AJAX</span>
               <span>APIs</span>
@@ -33,16 +33,27 @@ export default function Resume() {
           <div className="skill">
             <h2>Backtend Skills</h2>
             <div className="tag">
+              <span>PHP</span>
               <span>Node.js</span>
               <span>Express.js</span>
               <span>GraphQL</span>
               <span>MySQL</span>
-              <span>Sequelize</span>
               <span>NoSQL</span>
               <span>MongoDB</span>
               <span>Mongoose</span>
               <span>Testing</span>
-              <span>Heroku</span>
+            </div>
+          </div>
+          <div className="skill">
+            <h2>DevOps Skills</h2>
+            <div className="tag">
+              <span>AWS</span>
+              <span>Google cloud</span>
+              <span>Vultr</span>
+              <span>VPS</span>
+              <span>Linux Web hosting</span>
+              <span>Wordpress hosting</span>
+              <span>C-panel</span>
             </div>
           </div>
         </div>
